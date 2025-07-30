@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns="http://schemas.microsoft.com/PowerApps/2019/10/componentframework">
+  <control namespace="Demo" constructor="MultiSelectLookupFlex" version="1.0.0" display-name-key="MultiSelect Lookup Flex" description-key="A robust multi-select lookup control for forms and views" control-type="standard">
+    <resources>
+      <code path="index.ts" order="1" />
+    </resources>
+    <properties>
+      <!-- The bound value property stores the semicolon-delimited list of IDs. -->
+      <property name="value" display-name-key="Value" description-key="Selected item identifiers" of-type="SingleLine.Text" usage="bound" required="false" />
+    </properties>
+  </control>
+</manifest>
